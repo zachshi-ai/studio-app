@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Studio 客户端下载</title>
+<style>
+  :root{color-scheme:dark}
+  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;
+    background:radial-gradient(120% 90% at 20% 0%,#1b2030 0%,#0b0c10 60%,#06070a 100%);
+    font-family:-apple-system,"PingFang SC","Noto Sans SC",sans-serif;color:#f5f6f8;padding:28px}
+  .card{width:100%;max-width:420px}
+  .icon{width:76px;height:76px;border-radius:20px;display:block;
+    box-shadow:0 12px 34px rgba(79,124,255,.35)}
+  h1{font-size:26px;margin:20px 0 6px;letter-spacing:.02em}
+  .sub{color:#8a8f9c;font-size:13px;letter-spacing:.04em}
+  .desc{color:#c3c7d1;font-size:14px;line-height:1.75;margin:20px 0 22px}
+  a.btn{display:block;text-align:center;text-decoration:none;color:#fff;font-weight:600;
+    background:linear-gradient(120deg,#4f7cff,#9b4df0);padding:16px;border-radius:14px;
+    font-size:16px;letter-spacing:.02em;box-shadow:0 10px 26px rgba(79,124,255,.28)}
+  a.btn:active{transform:translateY(1px);opacity:.92}
+  .meta{display:flex;justify-content:space-between;color:#7c818e;font-size:12px;margin-top:12px}
+  ul.feats{list-style:none;padding:0;margin:26px 0 0;border-top:1px solid #22242c}
+  ul.feats li{padding:11px 0;border-bottom:1px solid #191b22;font-size:13.5px;color:#c8ccd6}
+  ul.feats li b{color:#f5f6f8;font-weight:600}
+  .tip{color:#6f7482;font-size:12px;line-height:1.7;margin-top:18px}
+</style>
+</head>
+<body>
+<div class="card">
+  <img class="icon" src="icon.png" alt="Studio">
+  <h1>Studio</h1>
+  <div class="sub">studio.stepx.com · 独立客户端</div>
+  <p class="desc">把工作台从浏览器里拿出来：上传、下载、长按存图、全屏视频、登录保持全部按 App 的方式处理。</p>
+  <a class="btn" href="https://github.com/zachshi-ai/studio-app/raw/main/Studio-v1.0.apk">下载 APK（73 KB）</a>
+  <div class="meta"><span>v1.0</span><span>Android 7.0+</span></div>
+  <ul class="feats">
+    <li><b>登录保持</b>：Cookie 持久化，退出重进不用再登</li>
+    <li><b>文件上传</b>：原生选择器 + 直接拍照上传</li>
+    <li><b>文件下载</b>：系统下载器，落「下载」目录并通知</li>
+    <li><b>长按存图</b>：保存图片 / 复制链接</li>
+    <li><b>全屏视频</b> + <b>断网重试</b></li>
+  </ul>
+  <p class="tip">安装时若提示「未知来源」，在系统设置里允许浏览器安装应用即可。</p>
+</div>
+</body>
+</html>
